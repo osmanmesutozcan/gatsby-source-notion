@@ -1,28 +1,27 @@
 {
-  "name": "gatsby-source-trello",
-  "version": "1.0.7",
-  "description": "gatsby source plugin for trello",
+  "name": "gatsby-source-notion",
+  "version": "0.0.1",
+  "description": "gatsby source plugin for notion",
+  "main": "index.js",
+  "author": "Osman Mesut Ozcan",
+  "license": "MIT",
   "respository": {
     "type": "git",
-    "url": "necmttn/gatsby-source-trello"
+    "url": "osmanmesutozcan/gatsby-source-notion"
   },
   "keywords": [
     "gatsby",
     "gatsby-plugin",
-    "trello",
+    "notion",
     "source",
-    "trello-as-a-cms"
+    "notion-as-a-cms"
   ],
-  "main": "index.js",
-  "license": "MIT",
   "scripts": {
     "test": "jest --watch",
     "build": "babel src --out-dir . --ignore __tests__",
     "prepublish": "cross-env NODE_ENV=production npm run build",
     "watch": "babel -w src --out-dir . --ignore __tests__"
   },
-  "author": "Necmettin Karakaya",
-  "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "cross-env": "^5.1.0",
