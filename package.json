@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-source-trello",
+  "version": "1.0.7",
+  "description": "gatsby source plugin for trello",
+  "respository": {
+    "type": "git",
+    "url": "necmttn/gatsby-source-trello"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "trello",
+    "source",
+    "trello-as-a-cms"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watch",
+    "build": "babel src --out-dir . --ignore __tests__",
+    "prepublish": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore __tests__"
+  },
+  "author": "Necmettin Karakaya",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "cross-env": "^5.1.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+
+}
